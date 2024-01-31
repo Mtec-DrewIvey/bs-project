@@ -19,3 +19,19 @@
     text-shadow: 0 0 5px #c25454, 0 0 10px #c25454, 0 0 20px #c25454, 0 0 40px rgba(255, 30, 0, 0.857), 0 0 80px rgba(255, 30, 0, 0.857), 0 0 90px rgba(255, 30, 0, 0.857), 0 0 100px rgba(255, 30, 0, 0.857),0 0 150px rgba(255, 30, 0, 0.857);
     background-color: rgba(0, 0, 0, .75);
 }
+
+.btn {
+    border-radius: 2rem;
+}
+
+.btn-danger {
+    background-color: #5e1313;
+    border-color: #5e1313;
+    transition: all 0.2s ease-in;
+}
+
+.btn-danger:hover {
+    background-color: #af1212;
+    border-color: #af1212;
+    box-shadow: 10px 5px 15px rgba(255, 255, 255, 0.4);
+}
