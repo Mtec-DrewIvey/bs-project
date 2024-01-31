@@ -71,4 +71,8 @@ h2, h3 {
 p.box-header {
   font-family: "Graduate", serif;
   font-size: 1rem;
+}
+
+nav {
+  z-index: 100;
 }/*# sourceMappingURL=style.css.map */

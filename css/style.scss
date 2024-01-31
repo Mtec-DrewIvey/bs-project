@@ -30,7 +30,6 @@
 .highlight-box {
     background-color: rgba(0, 0, 0, 0.25);
     transition: background-color .5s ease-in-out, text-shadow 1s ease-in;
-    // transition: text-shadow .5s ease-in;
 }
 
 .highlight-box:hover {
@@ -64,4 +63,8 @@ p.res-text {
 
 p.box-header {
     @include mixins.main-font();
+}
+
+nav {
+    z-index: 100;
 }
