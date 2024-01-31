@@ -1,0 +1,7 @@
+@use 'variables';
+
+%em-text {
+    font-family: variables.$font-family-emphasis;
+    font-style: italic;
+    font-size: variables.$fs-800;
+}

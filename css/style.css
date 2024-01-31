@@ -1,7 +1,36 @@
-.wrapper {
-  background: url(../images/pexels-legoSw.jpeg) no-repeat;
-  background-size: cover;
+p.res-text {
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  font-size: 1.75rem;
+}
+
+.h1 {
+  font-family: "Graduate", serif;
+  font-size: 5.5rem;
+}
+
+.h2 {
+  font-family: "Graduate", serif;
+  font-size: 3rem;
+}
+
+.h3 {
+  font-family: "Graduate", serif;
+  font-size: 2.5rem;
+}
+
+.hero {
+  background: url("../images/pexels-legoSw.jpeg") no-repeat;
   background-position: center;
+  background-size: cover;
+  box-shadow: inset 110px 110px 110px rgba(20, 20, 20, 0.6);
+}
+
+.obj-wrapper {
+  background: url(../images/stars.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 110px 110px 110px rgba(20, 20, 20, 0.6);
 }
 
 .neon {
@@ -21,6 +50,7 @@
 
 .btn {
   border-radius: 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .btn-danger {
@@ -32,5 +62,13 @@
 .btn-danger:hover {
   background-color: #af1212;
   border-color: #af1212;
-  box-shadow: 10px 5px 15px rgba(255, 255, 255, 0.4);
+}
+
+h2, h3 {
+  text-shadow: 0 10px 10px #000, 0 15px 25px #000;
+}
+
+p.box-header {
+  font-family: "Graduate", serif;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

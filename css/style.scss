@@ -1,7 +1,25 @@
-.wrapper {
-    background: url(../images/pexels-legoSw.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
+@use 'variables';
+@use 'extends';
+@use 'mixins';
+
+.h1 {
+    @include mixins.main-font(variables.$h1-font-size);
+}
+
+.h2 {
+    @include mixins.main-font(variables.$h2-font-size);
+}
+
+.h3 {
+    @include mixins.main-font(variables.$h3-font-size);
+}
+
+.hero {
+    @include mixins.wrapper-bg;
+}
+
+.obj-wrapper {
+    @include mixins.wrapper-bg(url(../images/stars.jpeg) no-repeat);
 }
 
 .neon {
@@ -22,6 +40,7 @@
 
 .btn {
     border-radius: 2rem;
+    padding: .5rem 2rem;
 }
 
 .btn-danger {
@@ -33,5 +52,16 @@
 .btn-danger:hover {
     background-color: #af1212;
     border-color: #af1212;
-    box-shadow: 10px 5px 15px rgba(255, 255, 255, 0.4);
+}
+
+h2, h3 {
+    text-shadow: 0 10px 10px #000, 0 15px 25px #000;
+}
+
+p.res-text {
+    @extend %em-text;
+}
+
+p.box-header {
+    @include mixins.main-font();
 }

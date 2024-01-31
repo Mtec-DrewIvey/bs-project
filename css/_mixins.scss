@@ -1,0 +1,14 @@
+@use 'variables';
+
+@mixin wrapper-bg($bg: url('../images/pexels-legoSw.jpeg') no-repeat) {
+    background: $bg;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 110px 110px 110px rgba(20, 20, 20, 0.6);
+}
+
+
+@mixin main-font($fs: variables.$fs-400) {
+    font-family: 'Graduate', serif;
+    font-size: $fs;
+}
