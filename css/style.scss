@@ -22,6 +22,10 @@
     @include mixins.wrapper-bg(url(../images/stars.jpeg) no-repeat);
 }
 
+.contact-wrapper {
+    @include mixins.wrapper-bg(url(../images/sith-logo.jpeg) no-repeat);
+}
+
 .neon {
     color: #5e1313;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px rgba(255, 30, 0, 0.857), 0 0 100px rgba(255, 30, 0, 0.857), 0 0 110px rgba(255, 30, 0, 0.857), 0 0 140px rgba(255, 30, 0, 0.857),0 0 200px rgba(255, 30, 0, 0.857);
