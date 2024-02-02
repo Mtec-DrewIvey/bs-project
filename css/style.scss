@@ -73,3 +73,17 @@ nav {
     // Nav should always be selectable -- necessary for objectives page where the author has their content z-indexed to 3 and was making nav bar inaccessable
     z-index: 100;
 }
+
+@media (max-width: 576px) {
+    .h1 {
+        @include mixins.main-font(variables.$h2-font-size);
+    }
+    
+    .h2 {
+        @include mixins.main-font(variables.$fs-800);
+    }
+    
+    .h3 {
+        @include mixins.main-font(variables.$fs-700);
+    }
+}
