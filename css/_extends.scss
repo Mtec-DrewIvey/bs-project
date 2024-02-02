@@ -5,3 +5,7 @@
     font-style: italic;
     font-size: variables.$fs-800;
 }
+
+%header-shadow {
+    text-shadow: 0 10px 10px #000, 0 15px 25px #000;
+}

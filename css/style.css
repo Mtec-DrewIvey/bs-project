@@ -4,6 +4,10 @@ p.res-text {
   font-size: 1.75rem;
 }
 
+h2, h3 {
+  text-shadow: 0 10px 10px #000, 0 15px 25px #000;
+}
+
 .h1 {
   font-family: "Graduate", serif;
   font-size: 5.5rem;
@@ -60,19 +64,15 @@ p.res-text {
   padding: 0.5rem 2rem;
 }
 
-.btn-danger {
+.btn-primary {
   background-color: #5e1313;
   border-color: #5e1313;
   transition: all 0.2s ease-in;
 }
 
-.btn-danger:hover {
+.btn-primary:hover {
   background-color: #af1212;
   border-color: #af1212;
-}
-
-h2, h3 {
-  text-shadow: 0 10px 10px #000, 0 15px 25px #000;
 }
 
 p.box-header {

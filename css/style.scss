@@ -46,19 +46,19 @@
     padding: .5rem 2rem;
 }
 
-.btn-danger {
+.btn-primary {
     background-color: #5e1313;
     border-color: #5e1313;
     transition: all 0.2s ease-in;
 }
 
-.btn-danger:hover {
+.btn-primary:hover {
     background-color: #af1212;
     border-color: #af1212;
 }
 
 h2, h3 {
-    text-shadow: 0 10px 10px #000, 0 15px 25px #000;
+    @extend %header-shadow;
 }
 
 p.res-text {
@@ -70,5 +70,6 @@ p.box-header {
 }
 
 nav {
+    // Nav should always be selectable -- necessary for objectives page where the author has their content z-indexed to 3 and was making nav bar inaccessable
     z-index: 100;
 }
