@@ -1,0 +1,77 @@
+commit 2927dae9e021419e1545dbf3b12a97ab0ab3724b
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Fri Feb 2 12:38:54 2024 -0700
+
+    Filling out readme with objectives and personal thoughts Fri Feb  2 12:38:54 MST 2024
+
+commit c6e2705c7c0f54ed832a57686a11f7a10e69f4b0
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Fri Feb 2 11:48:54 2024 -0700
+
+    Adding breakpoint classes for more responsive design Fri Feb  2 11:48:54 MST 2024
+
+commit b2ff48d30e978b26e6af70172d38514215245562
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Fri Feb 2 11:11:33 2024 -0700
+
+    made small changes to button classes used and adjusted styling appropriately. Attempting to make page more responsive by adding split-header section for screen size xs-lg as font is large and causes issues with overflow Fri Feb  2 11:11:33 MST 2024
+
+commit a7824d358266c3b9b0dd3e56ec16ab1150147ea0
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 31 10:16:17 2024 -0700
+
+    Added form to contact page and adjusted format of input fields. Wed Jan 31 10:16:17 MST 2024
+
+commit 06bcf2670e775b2014cc5e60805010790acd8779
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 31 09:52:15 2024 -0700
+
+    adding contact page and js file. Added functionality to 'Join Us' btn on homepage to direct to new contact page. Wed Jan 31 09:52:15 MST 2024
+
+commit fa0f2fbca4862f6f2d573503a5b54f929d702723
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 31 09:25:27 2024 -0700
+
+    updated content-body with relevant text Wed Jan 31 09:25:27 MST 2024
+
+commit bd41f45b01ebb513762c6fb5178aee9ccb46152b
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 31 09:14:41 2024 -0700
+
+    Found a css file outline that creates a 'star wars intro' scene for my objective page. Added the CSS and HTML required and added a paragraph to the content-body. Wed Jan 31 09:14:41 MST 2024
+
+commit c86a64776648211bec5cc368db8becd1cda196f2
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Wed Jan 31 08:36:49 2024 -0700
+
+    Finishing touches on index.html. Updated fonts, added font-shadow to header 2 and 3 for easier visibility against light background source. Link to Objectives.html created and started outlining objectives page Wed Jan 31 08:36:48 MST 2024
+
+commit e1564e00be29ca812d7d981832b6e3c8d1fd163a
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Tue Jan 30 21:35:31 2024 -0700
+
+    Working on 'Join Us' btn styling. Adding box-shadow on hover and updating default button styles Tue Jan 30 21:35:31 MST 2024
+
+commit a51213c63ef93cc4ce0b212d1c07c7fda626b019
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Tue Jan 30 21:17:48 2024 -0700
+
+    Adding gitignore and image and css folder for project organization. Created SCSS stylesheets and added background-color to highlight-boxes and adding transition to opacity
+
+commit 710175352c162bd809089401390054d900884039
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Tue Jan 30 20:16:27 2024 -0700
+
+    Positioning content using bootstrap flex styles and adjusting various background colors/opacities, font-sizes and added glow effect around 'company' nmae
+
+commit 4a846893c623b30d9f4bbef3a98b22a6d84780bc
+Author: Drew Ivey <drew.ivey4543@stu.mtec.edu>
+Date:   Tue Jan 30 17:11:57 2024 -0700
+
+    Initial commit. Set up HTML structure and add B.S. CDNs.
+
+commit 226a289a739df0dc3fbc81eaba7bd9aa3136bd98
+Author: Drew Ivey <155995115+Mtec-DrewIvey@users.noreply.github.com>
+Date:   Tue Jan 30 07:29:20 2024 -0700
+
+    Initial commit
